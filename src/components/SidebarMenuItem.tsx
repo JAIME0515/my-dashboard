@@ -12,8 +12,7 @@ interface Props {
 
 const SidebarMenuItem = ({ path, icon, title, subTitle }: Props) => {
   const currentPath = usePathname();
-  console.log("currentPath", currentPath);
-  console.log("path", path);
+
   return (
     <div className={`${currentPath === path ? "bg-blue-800" : ""}`}>
       <Link
