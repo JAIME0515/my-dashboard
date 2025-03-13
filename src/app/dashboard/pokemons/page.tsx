@@ -22,10 +22,7 @@ const PagePokemons = async () => {
 
   return (
     <div className="flex flex-col">
-      <span className="text-5xl my-2">
-        Listado de Pokémons
-        <small>estatico</small>
-      </span>
+      <span className="text-5xl my-2">Listado de Pokémons</span>
 
       <PokemonGrid pokemons={pokemons} />
     </div>
